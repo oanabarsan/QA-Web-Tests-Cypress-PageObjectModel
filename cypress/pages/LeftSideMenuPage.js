@@ -51,8 +51,10 @@ class LeftSideMenuPage {
     return cy.get('#checkboxes');
   }
 
-  getIframes(){
-    return cy.get("a[role='button']");
+  getIframeLink(){
+    return cy.get("#iframes");
   }
+
+
 }
 export default new LeftSideMenuPage();
