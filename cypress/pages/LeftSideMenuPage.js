@@ -55,6 +55,10 @@ class LeftSideMenuPage {
     return cy.get("#iframes");
   }
 
+  getEcommerceLink(){
+    return cy.get('a[href="auth_ecommerce.html"]');
+  }
+
 
 }
 export default new LeftSideMenuPage();
