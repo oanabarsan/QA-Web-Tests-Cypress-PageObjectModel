@@ -5,10 +5,6 @@ import LeftSideMenuPage from "../pages/LeftSideMenuPage";
 import IframePage from "../pages/IframePage";
 
 describe("Iframes test suite", () => {
-  before(() => {
-    cy.visit("https://qa-practice.netlify.app");
-  });
-
   it("Iframe test", () => {
     LeftSideMenuPage.getIframeLink().click();
     IframePage.getFrameLoaded;

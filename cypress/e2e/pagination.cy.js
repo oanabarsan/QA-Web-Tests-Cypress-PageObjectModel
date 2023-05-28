@@ -4,10 +4,6 @@ import LeftSideMenuPage from "../pages/LeftSideMenuPage";
 import PaginationPage from "../pages/PaginationPage";
 
 describe("Pagination test", () => {
-  before(() => {
-    cy.visit("https://qa-practice.netlify.app");
-  });
-
   it("Pagination test", () => {
     LeftSideMenuPage.getPagination().click();
     PaginationPage.getPage1().click();

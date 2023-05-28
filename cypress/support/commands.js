@@ -7,4 +7,6 @@ Cypress.Commands.add('login',(email, password) =>{
   LoginPage.getEmail().type(email);
   LoginPage.getPassword().type(password);
   LoginPage.getSubmitBtn().click();
-})
+});
+
+import '@testing-library/cypress/add-commands';

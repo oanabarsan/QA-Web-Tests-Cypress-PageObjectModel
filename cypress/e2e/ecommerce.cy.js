@@ -6,10 +6,6 @@ import ShippingDetailsPage from "../pages/ShippingDetailsPage";
 import ShoppingCartPage from "../pages/ShoppingCartPage";
 
 describe("Ecommerce test suite", () => {
-  before(() => {
-    cy.visit("https://qa-practice.netlify.app");
-  });
-
   it("Submit order test", () => {
     LeftSideMenuPage.getEcommerceLink().click();
     LoginPage.getEmail().type("admin@admin.com");

@@ -5,10 +5,6 @@ import DoubleClickPage from "../pages/DoubleClickPage";
 import ShowHideElementPage from "../pages/ShowHideElementPage";
 
 describe("Buttons page test", () => {
-  beforeEach(() => {
-    cy.visit("https://qa-practice.netlify.app");
-  });
-
   it("Double click button test", () => {
     LeftSideMenuPage.getBtnActions().click();
     LeftSideMenuPage.getDoubleClickBtnLink().click();
