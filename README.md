@@ -1,6 +1,6 @@
 # QA-Web-Tests-Cypress-PageObjectModel
 
-Cypress automation test for: https://qa-practice.netlify.app/
+Cypress automation test for: https://qa-practice.netlify.app/ with Page Object Model approach.
 
 <span align="center">
 
